@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal da Medicina</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f6f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #0a3d62;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #145da0;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 30px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h2 {
+            color: #0a3d62;
+        }
+
+        .card {
+            background-color: white;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            background-color: #0a3d62;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+
+        button {
+            background-color: #145da0;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0a3d62;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Portal da Medicina</h1>
+    <p>Informação, conhecimento e saúde</p>
+</header>
+
+<nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#areas">Áreas</a>
+    <a href="#importancia">Importância</a>
+    <a href="#contato">Contato</a>
+</nav>
+
+<section id="sobre">
+    <h2>O que é Medicina?</h2>
+    <div class="card">
+        <p>
+            A Medicina é a área da ciência dedicada à prevenção, diagnóstico e tratamento de doenças.
+            O profissional formado em Medicina é chamado de médico e atua promovendo a saúde
+            e o bem-estar da população.
+        </p>
+    </div>
+</section>
+
+<section id="areas">
+    <h2>Principais Áreas da Medicina</h2>
+
+    <div class="card">
+        <h3>Clínica Médica</h3>
+        <p>Foca no diagnóstico e tratamento de doenças em adultos.</p>
+    </div>
+
+    <div class="card">
+        <h3>Pediatria</h3>
+        <p>Especialidade voltada ao cuidado da saúde de crianças e adolescentes.</p>
+    </div>
+
+    <div class="card">
+        <h3>Cirurgia</h3>
+        <p>Área responsável por procedimentos cirúrgicos para tratar doenças e lesões.</p>
+    </div>
+
+    <div class="card">
+        <h3>Cardiologia</h3>
+        <p>Especialidade que cuida do coração e do sistema cardiovascular.</p>
+    </div>
+</section>
+
+<section id="importancia">
+    <h2>Importância da Medicina</h2>
+    <div class="card">
+        <p>
+            A Medicina é essencial para aumentar a expectativa de vida,
+            melhorar a qualidade de vida da população e combater epidemias.
+            Através da pesquisa científica e da inovação de pika tecnológica,
+            novos tratamentos e vacinas são desenvolvidos constantemente.
+        </p>
+        <button onclick="mostrarMensagem()">Saiba Mais</button>
+        <p id="mensagem"></p>
+    </div>
+</section>
+
+<section id="contato">
+    <h2>Contato</h2>
+    <div class="card">
+        <p>Email: contato@portaldamedicina.com</p>
+        <p>Telefone: (41) 98823-5424</p>
+    </div>
+</section>
+<img src="C:\Users\compuni\Desktop\Lucas\neymar gostos.png" alt="">
+<footer>
+    <p>&copy; 2026 Portal da Medicina - Todos os direitos reservados.</p>
+</footer>
+
+<script>
+    function mostrarMensagem() {
+        document.getElementById("mensagem").innerText =
+            "A Medicina evolui constantemente graças à ciência e à dedicação dos profissionais de saúde.";
+    }
+</script>
+
+</body>
+</html> 
